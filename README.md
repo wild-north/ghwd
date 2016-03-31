@@ -43,7 +43,7 @@ searching for one of the following openers: `xdg-open`, `open`,`cygstart`,`start
 
 `ghwd` supports git repos from the following providers:
 
-- [github.com](https://github.com) ssh, https, `git:`, *and also `git@personal`, `git@work` multi-account remotes*
+- [github.com](https://github.com) ssh, https, `git:`, **and also `git@personal`, `git@work` multi-account remotes**
 - [bitbucket.org](https://bitbucket.org) ssh and https remotes
 - [gitlab.com](https://gitlab.com) ssh and https remotes
 
