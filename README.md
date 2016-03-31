@@ -58,4 +58,4 @@ like this one, in addition to a number of other features.
 
 [ISC](http://opensource.org/licenses/ISC)
 
-![octobiwan](octobiwan.jpg)
+![heisencat](heisencat.png)
