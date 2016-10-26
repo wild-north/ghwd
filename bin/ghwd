@@ -4,11 +4,8 @@
 base_url=$(git config --get remote.origin.url)
 base_url=${base_url%\.git} # remove .git from end of string
 
-# Fix git@work: URLs
-base_url=${base_url//git@work:/https:\/\/github\.com\/}
-
-# Fix git@personal: URLs
-base_url=${base_url//git@personal:/https:\/\/github\.com\/}
+# Fix git@WILDCARD: URLs
+base_url=${base_url//git@*:/https:\/\/github\.com\/}
 
 # Fix git@github.com: URLs
 base_url=${base_url//git@github\.com:/https:\/\/github\.com\/}
